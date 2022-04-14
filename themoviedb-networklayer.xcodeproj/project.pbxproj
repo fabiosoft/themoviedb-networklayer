@@ -24,6 +24,8 @@
 		E5424A8F2808BEF0003A2676 /* PopularMovieListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5424A892808BEEA003A2676 /* PopularMovieListViewModel.swift */; };
 		E5424A952808C168003A2676 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5424A922808C159003A2676 /* NetworkService.swift */; };
 		E5424A962808C16B003A2676 /* DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5424A932808C159003A2676 /* DataRequest.swift */; };
+		E5424A992808C55A003A2676 /* SSLPinningManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5424A972808C55A003A2676 /* SSLPinningManager.swift */; };
+		E5424A9A2808C5D2003A2676 /* themoviedb.org.cer in Resources */ = {isa = PBXBuildFile; fileRef = E5424A982808C55A003A2676 /* themoviedb.org.cer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		E5424A8B2808BEEB003A2676 /* PopularMovieRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMovieRequest.swift; sourceTree = "<group>"; };
 		E5424A922808C159003A2676 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		E5424A932808C159003A2676 /* DataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRequest.swift; sourceTree = "<group>"; };
+		E5424A972808C55A003A2676 /* SSLPinningManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLPinningManager.swift; sourceTree = "<group>"; };
+		E5424A982808C55A003A2676 /* themoviedb.org.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = themoviedb.org.cer; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +165,8 @@
 		E5424A902808C159003A2676 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				E5424A972808C55A003A2676 /* SSLPinningManager.swift */,
+				E5424A982808C55A003A2676 /* themoviedb.org.cer */,
 				E5424A922808C159003A2676 /* NetworkService.swift */,
 				E5424A932808C159003A2676 /* DataRequest.swift */,
 			);
@@ -274,6 +280,7 @@
 				E5424A602808BA70003A2676 /* LaunchScreen.storyboard in Resources */,
 				E5424A5D2808BA70003A2676 /* Assets.xcassets in Resources */,
 				E5424A5B2808BA6C003A2676 /* Main.storyboard in Resources */,
+				E5424A9A2808C5D2003A2676 /* themoviedb.org.cer in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +312,7 @@
 				E5424A952808C168003A2676 /* NetworkService.swift in Sources */,
 				E5424A8D2808BEF0003A2676 /* PopularMovieRequest.swift in Sources */,
 				E5424A8E2808BEF0003A2676 /* Movie.swift in Sources */,
+				E5424A992808C55A003A2676 /* SSLPinningManager.swift in Sources */,
 				E5424A542808BA6C003A2676 /* AppDelegate.swift in Sources */,
 				E5424A562808BA6C003A2676 /* SceneDelegate.swift in Sources */,
 				E5424A8C2808BEF0003A2676 /* MovieViewModel.swift in Sources */,
